@@ -1,0 +1,105 @@
+body {font-family: Helvetica;
+      font-size: 22px;
+      color: seashell;
+      background-color: black;
+      opacity: 0.9;}
+
+
+/*header*/
+#header { width: 100%;
+          height: 69px;
+          background-color: black;
+          border-bottom: 1px solid seashell;
+          display:flex;
+          justify-content: space-between;
+          position: fixed;
+          top: 0;
+          z-index: 5;}
+
+#logo img{ height: 50px;
+            padding-left: 10px;}
+
+#logo { display: flex;
+       justify-content: flex-start;
+       align-items: center;}
+
+ul {list-style: none;
+   position: relative;
+   right: : 30px;}
+
+#nav li {padding-left: 15px;
+         display: inline;
+        text-decoration: underline;}
+
+#nav li a { color: white;
+}
+
+/*largge pic section*/
+.wraper { margin: o auto;
+         text-align: center;}
+
+#largepic { width: 1200px;
+            height: 700px;
+            background-image: url("./images/img-mission-background.jpg");}
+
+
+#mission { position: relative;
+           top: 250px;
+           width: 1200px;
+           height: 120px;
+           background-color: black;
+           margin: 0 auto;
+           padding: 10px;
+          text-align: center;
+          opacity: 0.7;}
+
+
+.wraper { margin: auto;
+}
+
+#middle{ width: 1000px;
+         margin: auto;
+         text-align: center;
+     }
+
+.col { display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-bottom: 30px;
+       flex:1 300px;}
+
+.col img{ width: 300px;
+      height: 200px;
+  }
+
+#b { display: flex;
+    justify-content: center;
+     }
+
+#b img{ padding-left: 25px}
+
+/*bottom*/
+#locations {width: 1200px;
+         height: 500px;
+         background-image: url("./images/img-locations-background.jpg");
+         text-align: center;
+         }
+
+#locations h3{ padding-bottom: 15px;}
+
+
+.box {width: 300px;
+         height: 280px;
+        background-color: black;
+     line-height: 1.5;
+  }
+
+.wraper2 { width: 1200px;
+           height: 280px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; }
+
+#footer {float: left;
+        padding-left: 20px;
+       padding-bottom: 20px;}
